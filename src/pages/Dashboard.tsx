@@ -29,7 +29,7 @@ const Dashboard = () => {
         <h2 className="text-xl font-bold mb-6">Dashboard</h2>
 
         {data.length === 0 ? (
-          <p className="text-gray-600">Hozircha hech qanday ma'lumot yoq.</p>
+          <p className="text-gray-600">EMPTY</p>
         ) : (
           <div className="grid grid-cols-4 gap-4">
             {data.map((item: IItem) => (
